@@ -15,7 +15,7 @@ services:
       MYSQL_PASSWORD: secret
       MYSQL_DB: todos
 
-  mysql:
+  mariadb:
     image: mariadb:10.6
     volumes:
       - todo-mysql-data:/var/lib/mysql
